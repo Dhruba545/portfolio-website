@@ -73,11 +73,13 @@ p{
     
 }
 main{
-    background-color: #cc8f63;
+    background-color: #FFF8F3;
     font-family: sans-serif;
     width: 1140px;
     height: 550px;
     border-radius:10px;
+    text-align:center;
+    margin:0px auto;
     
 
 }
@@ -88,19 +90,18 @@ main > .mainbody > .bodyunderbody > h3{
     width: 827px;
     height: 288px;
     padding: 131px 176.5px;
+    margin: 130px 0px;
 
 }
-main > .mainbody >.bodyunderbody > ul {
-    display: flex;
-    list-style: none;
-}
-main > .mainbody >.bodyunderbody > ul > li > div{
-    width:161px;
-    height:60px;
-}
+
 main p{
     color:#757575;
 }
 main > .mainbody >.bodyunderbody > ul > li{
     color:#757575;
+}
+.mans_info{
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
 }
