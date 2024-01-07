@@ -61,12 +61,46 @@ p{
 .intro{
     padding-top:150px;
     padding-bottom: 100px;
+    max-width:500px;
 }
 .bt{
-    padding-top:10px;
+    padding-top:15px;
 }
-.intro{
+.bottomheader{
     background-image: url('header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    
+}
+main{
+    background-color: #cc8f63;
+    font-family: sans-serif;
+    width: 1140px;
+    height: 550px;
+    border-radius:10px;
+    
+
+}
+main > .mainbody > .bodyunderbody > h3{
+    font-size:35px;
+}
+.bodyunderbody{
+    width: 827px;
+    height: 288px;
+    padding: 131px 176.5px;
+
+}
+main > .mainbody >.bodyunderbody > ul {
+    display: flex;
+    list-style: none;
+}
+main > .mainbody >.bodyunderbody > ul > li > div{
+    width:161px;
+    height:60px;
+}
+main p{
+    color:#757575;
+}
+main > .mainbody >.bodyunderbody > ul > li{
+    color:#757575;
 }
