@@ -1,8 +1,9 @@
-h3{ font-size:45px;
-    font-weight: 800;
-    font-family: 'Roboto Condensed', sans-serif;
+.head > h3{font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
 }
-header{
+
+.head{
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -15,6 +16,7 @@ ul{
 }
 ul li{
     margin-right:50px;
+    font-family:sans-serif;
 }
 .r{
     color: #FD6E0A;
@@ -27,4 +29,32 @@ ul li{
     font-size:20px;
     font-weight:700;
     padding:15px 35px;
+}
+header{
+    background:#FFF8F3;
+}
+.banner{
+    display:flex;
+    padding:30px 30px 30px 150px;
+
+}
+h1{
+    font-size:60px;
+}
+button{
+    background-color:#FD6E0A ;
+    border:0px;
+    border-radius:5px;
+    color:white;
+    font-size:20px;
+    font-weight:700;
+    padding:15px 35px;
+    
+}
+.bannergreting{
+    font-family:sans-serif;
+    background-image:url('header_bg.png');
+    background-repeat:no-repeat;
+    background-position: bottom right ;
+
 }
